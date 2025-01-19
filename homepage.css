@@ -1,0 +1,41 @@
+main{
+    margin: 15px 30px;
+}
+
+@font-face{
+    font-family: 'Italianno';
+    src: url(Italianno.ttf);
+}
+
+#motto h1{
+    font-family: 'Italianno';
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 0px 1px 2px #5f5f5f;
+}
+
+#outfit-images{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#outfit-images img{
+    align-self: center;
+    width: 33%;
+    height: 800px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(53, 53, 53);
+}
+
+#footer{
+    width: 500px;
+    bottom: 0;
+    padding: 0px 0;
+    padding: 20px 0;
+}
+
+#footer p{
+    text-align: center;
+}
+
