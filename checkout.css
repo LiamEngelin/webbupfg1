@@ -1,0 +1,21 @@
+body{
+    background-color: #edfff3 !important;
+}
+#products-in-cart {
+    max-height: 900px; /* Ändra detta om du vill tillåta fler produkter */
+    overflow-y: auto; /* Lägg till rullningslist om fler produkter finns */
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.product-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.product-item img{
+    min-height: 70px;
+    min-width: 70px;
+}

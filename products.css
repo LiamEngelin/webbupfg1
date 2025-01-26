@@ -1,0 +1,40 @@
+body{
+    background-color: #c7ebeb !important;
+}
+
+main{
+    margin: 15px 30px;
+}
+
+main h1{
+    font-family: 'Italianno';
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 0px 1px 2px #5f5f5f;
+}
+
+@font-face{
+    font-family: 'Italianno';
+    src: url(Italianno.ttf);
+}
+
+.product-image{
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+#footer{
+    width: 500px;
+    bottom: 0;
+    padding: 0px 0;
+    padding: 20px 0;
+}
+
+#footer p{
+    text-align: center;
+}
